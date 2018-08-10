@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:textSize="80dp"
+        android:textColor="#f19627"
+        android:fontFamily="cursive"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fleur"
+        android:gravity="center"
+        android:layout_marginRight="116.5dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borders_button"
+        android:text="Click Me To Check"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="24dp"
+        android:textSize="50sp"
+        android:textColor="#3b4252"
+        android:fontFamily="cursive"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center_horizontal"
+        android:onClick="GoToSecondPage"
+        android:id="@+id/mainbutton"
+        android:layout_marginRight="28.5dp"
+        android:layout_marginTop="400.0dp"
+        android:layout_marginBottom="6dp" />
+</RelativeLayout>
