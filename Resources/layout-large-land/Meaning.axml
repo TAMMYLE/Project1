@@ -7,20 +7,20 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:textSize="100sp"
         android:textColor="#f19627"
         android:fontFamily="cursive"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Flower's Meaning"
-        android:gravity="center"
         android:layout_marginRight="116.5dp" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:textSize="50sp"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/back_button"
         android:textColor="#3b4252"
         android:fontFamily="cursive"
@@ -28,20 +28,20 @@
         android:id="@+id/buttonB" />
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="18dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginRight="18dp"
         android:layout_height="match_parent"
         android:orientation="vertical">
     <!-- Rose Meaning + Picture -->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="20dp">
             <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/buttonRose"
                 android:src="@drawable/rose" />
             <TextView
@@ -51,20 +51,20 @@
                 android:layout_height="wrap_content"
                 android:text="It turns out that these are the perfect bloom for Valentine's Day, representing love and desire. "
                 android:textColor="@android:color/black"
-                android:textSize="15sp"
+                android:textSize="30sp"
                 android:gravity="left"
                 android:textStyle="bold"
                 android:fontFamily="monospace" />
         </LinearLayout>
     <!-- Peonies Meaning + Picture -->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="20dp">
             <ImageButton
-                android:layout_width="80dp"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/buttonPeonies"
                 android:src="@drawable/peonies" />
             <TextView
@@ -74,19 +74,19 @@
                 android:layout_height="wrap_content"
                 android:text="Oddly enough, these sweet blooms represented 'anger' to Victorians. Talk about passive-aggressive."
                 android:textColor="#faa022"
-                android:textSize="15sp"
+                android:textSize="30sp"
                 android:gravity="left"
                 android:textStyle="bold"
                 android:fontFamily="monospace" />
         </LinearLayout>
     <!-- Carnation Meaning + Picture -->
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="20dp">
             <ImageButton
-                android:layout_width="80dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonCarnation"
                 android:src="@drawable/carnation" />
@@ -95,9 +95,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="These ruffly flowers don't have the best reputation, but if you love to give them, choose white ('sweet and lovely') or pink ('I will never forget you'). The two-toned version means 'I cannot be with you' and yellow ones signify 'disdain.'"
+                android:text="These ruffly flowers don't have the best reputation."
                 android:textColor="@android:color/black"
-                android:textSize="15sp"
+                android:textSize="30sp"
                 android:gravity="left"
                 android:textStyle="bold"
                 android:fontFamily="monospace" />

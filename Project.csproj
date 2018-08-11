@@ -115,6 +115,25 @@
     <AndroidResource Include="Resources\drawable\decor.jpg" />
     <AndroidResource Include="Resources\drawable\light.jpg" />
     <AndroidResource Include="Resources\drawable\plant.jpg" />
+    <AndroidResource Include="Resources\drawable\bg.jpg" />
+    <AndroidResource Include="Resources\layout-large-port\Main.axml" />
+    <AndroidResource Include="Resources\layout-small-port\Main.axml" />
+    <AndroidResource Include="Resources\layout-normal-land\Main.axml" />
+    <AndroidResource Include="Resources\layout-large-land\Main.axml" />
+    <AndroidResource Include="Resources\layout-small-land\Main.axml" />
+    <AndroidResource Include="Resources\layout-normal-port\Second.axml" />
+    <AndroidResource Include="Resources\layout-normal-land\Second.axml" />
+    <AndroidResource Include="Resources\layout-large-port\Second.axml" />
+    <AndroidResource Include="Resources\layout-large-land\Second.axml" />
+    <AndroidResource Include="Resources\layout-normal-port\Meaning.axml" />
+    <AndroidResource Include="Resources\layout-large-port\Meaning.axml" />
+    <AndroidResource Include="Resources\drawable\palm.jpg" />
+    <AndroidResource Include="Resources\layout-normal-land\Meaning.axml" />
+    <AndroidResource Include="Resources\layout-large-land\Meaning.axml" />
+    <AndroidResource Include="Resources\layout-normal-port\Ideas.axml" />
+    <AndroidResource Include="Resources\layout-normal-land\Ideas.axml" />
+    <AndroidResource Include="Resources\layout-large-port\Ideas.axml" />
+    <AndroidResource Include="Resources\layout-large-land\Ideas.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

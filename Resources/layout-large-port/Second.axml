@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="280sp"
+            android:textColor="#f19627"
+            android:fontFamily="cursive"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Fleur"
+            android:gravity="center"
+            android:layout_marginRight="116.5dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flower's Meaning"
+            android:layout_marginTop="60dp"
+            android:textSize="100sp"
+            android:background="@drawable/borders_buttons"
+            android:textColor="#3b4252"
+            android:fontFamily="cursive"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="28.5dp"
+            android:layout_marginLeft="74dp"
+            android:id="@+id/buttonMeaning" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decor' Ideas"
+            android:layout_marginTop="50dp"
+            android:textSize="100sp"
+            android:background="@drawable/borders_buttons"
+            android:textColor="#3b4252"
+            android:fontFamily="cursive"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="28.5dp"
+            android:layout_marginLeft="90dp"
+            android:id="@+id/buttonIdeas" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp"
+        android:background="@drawable/back_button"
+        android:textColor="#3b4252"
+        android:fontFamily="cursive"
+        android:text="Back"
+        android:id="@+id/buttonBack"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp" />
+</RelativeLayout>
