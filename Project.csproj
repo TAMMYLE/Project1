@@ -85,6 +85,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondActivity.cs" />
     <Compile Include="MeaningActivity.cs" />
+    <Compile Include="IdeasActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -110,6 +111,10 @@
     <AndroidResource Include="Resources\drawable\rose.jpg" />
     <AndroidResource Include="Resources\drawable\peonies.jpg" />
     <AndroidResource Include="Resources\drawable\carnation.jpg" />
+    <AndroidResource Include="Resources\layout\Ideas.axml" />
+    <AndroidResource Include="Resources\drawable\decor.jpg" />
+    <AndroidResource Include="Resources\drawable\light.jpg" />
+    <AndroidResource Include="Resources\drawable\plant.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

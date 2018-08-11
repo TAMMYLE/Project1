@@ -52,19 +52,11 @@ namespace Project
                 this.StartActivity(intent);
             }
 
-
-
-            //if(mybtn == BtnArrangement)
-            //{
-            //    Intent intent = new Intent(this, typeof(IdeasActivity));
-            //    this.StartActivity(intent);
-            //}
-
-            //if(mybtn == BtnBack)
-            //{
-            //    Intent intent = new Intent(this, typeof(BackActivity));
-            //    this.StartActivity(intent);
-            //}
+            if(mybtn == BtnIdeas)
+            {
+                Intent intent = new Intent(this, typeof(IdeasActivity));
+                this.StartActivity(intent);
+            }
         }
     }
 }
